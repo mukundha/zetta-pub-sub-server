@@ -1,0 +1,15 @@
+{
+  "name": "pub-sub-server",
+  "version": "0.0.1",
+  "description": "A Pub-Sub server using zetta",
+  "main": "index.js",
+  "scripts": {
+  	"start": "node index.js"    
+  },
+  "dependencies": {
+  	"zetta": "*",
+  	"zetta-device":"*"
+  },
+  "author": "mukundha@apigee.com",
+  "license": "Apache-2.0"
+}
