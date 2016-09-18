@@ -2,7 +2,7 @@ var util = require('util');
 var Device = require('zetta-device');
 
 module.exports = function(topic) {      
-  var TOPIC = function(led) {    
+  var TOPIC = function(t) {    
     this.message = topic;     
     Device.call(this);
   }
